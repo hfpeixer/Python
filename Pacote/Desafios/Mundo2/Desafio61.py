@@ -23,7 +23,7 @@ while inicial != 0:
     print('pausa')
     inicial = int(input('Quantos termos você quer mostrar mais? '))
 print('Finalizado')
-print('teste')
+
 
 
 
