@@ -1,15 +1,15 @@
-primeirotermo = int(input('Digite o primeiro termo: '))
-razao = int(input('Digite a razão: '))
-#totaltermos = 10
-termo = 1
-contator = False
-#menu = int(input('Escolha uma opção:\n[1] Mais termos\n[2] Sair'))
+n = int(input("Que termo deseja encontrar: "))
+ultimo=1
+penultimo=1
 
-while not contator:
-    an = primeirotermo + (termo - 1) * razao
-    print(an, '-> ' if termo < 11 else '', end='')
-    termo +=1
-    if termo >= 11:
-        contator = True
-    elif contator == True:
-            print(int(input('Escolha uma opção:\n[1] Mais termos\n[2] Sair')))
+
+if (n==1) or (n==2):
+    print("1")
+else:
+    count=3
+    while count <= n:
+        termo = ultimo + penultimo
+        penultimo = ultimo
+        ultimo = termo
+        count += 1
+    print(termo)
