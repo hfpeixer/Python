@@ -6,10 +6,6 @@ soma = n
 cont = 1
 parar = False
 while not parar:
-    
-    
-    #print(media)
-    
     print('=' *20)
     n = int(input('Deseja parar? \n[1] SIM\n[2] NÃO\n>>> '))
     if n == 1:
