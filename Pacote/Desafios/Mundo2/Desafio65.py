@@ -7,15 +7,14 @@ cont = 1
 parar = False
 while not parar:
     print('=' *20)
-    n = int(input('Deseja parar? \n[1] SIM\n[2] NÃO\n>>> '))
-    if n == 1:
+    pergunta = int(input('Deseja parar? \n[1] SIM\n[2] NÃO\n>>> '))
+    if pergunta == 1:
         parar = True
         print('=' * 20)
         if n > maior:
             maior = n
         elif n < menor:
             menor = n
-        soma = soma + n
         media = soma / cont
     #cont += 1     
     else:
