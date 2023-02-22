@@ -29,5 +29,5 @@ while not parar:
         media = soma / cont    
         
         
-print('A quantidade de números digitados foi {}, com as seguites dados:\nMenor valor > {}\nMaior Valor > {}\nSoma de > {}\nMédia de > {:.2f}'.format(cont, menor, maior, soma, media))
+print('A quantidade de números digitados foi {}, com as seguites dados:\nMenor valor > {}\nMaior Valor > {}\nSoma de > {}\nMédia de -> {:.2f}'.format(cont, menor, maior, soma, media))
         

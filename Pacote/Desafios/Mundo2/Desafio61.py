@@ -17,10 +17,10 @@ inicial = 10
 while inicial != 0:
     total = total + inicial
     while contador <= total:
-        print('{} ->'.format(termo), end='')
+        print('{} -> '.format(termo), end='')
         termo += razao
         contador += 1
-    print('pausa')
+    #print('pausa')
     inicial = int(input('Quantos termos você quer mostrar mais? '))
 print('Finalizado')
 
