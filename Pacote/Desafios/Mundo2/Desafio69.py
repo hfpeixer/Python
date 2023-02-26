@@ -3,7 +3,7 @@ masculino = 0
 mulheres_menores_20 = 0
 while True:
     idade = int(input('Qual a idade: '))
-    if idade > 18:
+    if idade >= 18:
         maior_18 += 1
     sexo = ' '
     while sexo not in 'MF':
@@ -11,7 +11,7 @@ while True:
         if sexo == 'M':
             masculino += 1
             print(masculino)
-        elif idade < 20 and sexo == 'F':
+        if idade < 20 and sexo == 'F':
             mulheres_menores_20 += 1
             print(mulheres_menores_20)
     continuar = ' '

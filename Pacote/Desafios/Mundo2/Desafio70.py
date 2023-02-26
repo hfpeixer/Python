@@ -1,8 +1,6 @@
 print('=' * 15, 'LOJA QUERO MAIS', '=' * 15)
-total = 0
-mais_1000 = 0
+total = mais_1000 = menor = 0
 nome_mais_barato = ''
-menor = 0
 while True:
     produto = str(input('Digite o nome do produto: ')).strip().upper()
     preco = int(input('Digite o preço: R$ '))
@@ -11,7 +9,7 @@ while True:
         menor = preco
     if preco > 1000:
         mais_1000 += 1
-    elif preco < menor:
+    if preco < menor:
         menor = preco
         nome_mais_barato = produto
 
