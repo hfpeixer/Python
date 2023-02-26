@@ -19,7 +19,7 @@ while True:
         continuar = str(input('Deseja continuar? [S/N] ')).strip().upper()[0]
     if continuar == 'N':
         break
-print ('=' * 5, 'FIM DO PROGRAMA', '=' * 5)
-print (f'Total de pessoas com mais de 18 anos: {maior_18}')
-print (f'Ao todo temos {masculino} homens cadastrados')
-print (f'E temos {mulheres_menores_20} mulheres com menos de 20 anos')
+print('=' * 5, 'FIM DO PROGRAMA', '=' * 5)
+print(f'Total de pessoas com mais de 18 anos: {maior_18}')
+print(f'Ao todo temos {masculino} homens cadastrados')
+print(f'E temos {mulheres_menores_20} mulheres com menos de 20 anos')
