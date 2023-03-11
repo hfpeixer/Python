@@ -5,7 +5,7 @@ print('O {} é divisivél por '.format(n))
 for c in range(1, n + 1):
     if n % c == 0:
         print(' ->', c, end='')
-        t += 1
+        total += 1
 else:
     if total == 2:
         print('\n O número {} é PRIMO'.format(n))
